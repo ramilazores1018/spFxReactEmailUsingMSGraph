@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ramilazores.sharepoint.com/sites/SharePoint13Demo/Rinnai/RemittanceDocLibrary/Forms/AllItems.aspx",
+      "customActions": {
+        "3a356e29-84e8-44ba-8cc0-70e946a2124a": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": " is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "emailMultipleLibraryItems": {
+      "pageUrl": "https://ramilazores.sharepoint.com/sites/SharePoint13Demo/Rinnai/RemittanceDocLibrary/Forms/AllItems.aspx",
+      "customActions": {
+        "3a356e29-84e8-44ba-8cc0-70e946a2124a": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": " is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

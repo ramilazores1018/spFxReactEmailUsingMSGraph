@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+  "id": "3a356e29-84e8-44ba-8cc0-70e946a2124a",
+  "alias": "EmailMultipleLibraryItemsCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "items": {
+    "COMMAND_1": {
+      "title": { "default": "Email" },
+      "iconImageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3klEQVQ4T2NkoBAwUqifgXIDtnrxX2f4z6BBlksYGW4wQgxgfMv0n7HipMX7Yw0NDP/wGfafgYFxiwevBRMjczcD439hxq2e/Dv//2eYw8jImA/SiMughgYGJvMTglb/GP93gNT9//9/IiMjQwrjFk/+rX9Z/yT5bfr6Cm4ykkEgxcga//3/W+qz4/OJTX7cYsy/WebBDfDf9PUl2GRUJ7KCvfOf8TdMIyNYCQPDRj9ucawGwPwPMmiHB58JiO+x49MZmEaYPEEDCMXKIDKA4oREyK+E5CnPC4RsICQPAPiHhwzrt1Z0AAAAAElFTkSuQmCC",
+      "type": "command"
+    }
+  }
+}

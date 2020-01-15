@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "email-multiple-library-items-client-side-solution",
+    "id": "31ec24a2-791b-410c-aff5-803782f4d25c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [{  
+      "resource": "Microsoft Graph",  
+      "scope": "User.ReadBasic.All"  
+  }, {  
+      "resource": "Microsoft Graph",  
+      "scope": "Contacts.Read"  
+  },{  
+    "resource": "Microsoft Graph",  
+    "scope": "Mail.Send"  
+}, {  
+      "resource": "Microsoft Graph",  
+      "scope": "Mail.Read"  
+  }] ,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "ee8e9de9-c57f-43de-83da-56af7b127847",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/email-multiple-library-items.sppkg"
+  }
+}
